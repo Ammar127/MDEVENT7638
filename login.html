@@ -1,0 +1,97 @@
+﻿<!DOCTYPE HTML>
+<head>
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui" />-->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+
+    <title>Epsilon 7.0</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/skin.css">
+    <link rel="stylesheet" type="text/css" href="styles/framework.css">
+    <link rel="stylesheet" type="text/css" href="styles/font-awesome.css">
+
+</head>
+
+<body>
+    <div id="page-transitions">
+
+        <div class="page-preloader page-preloader-dark">
+            <div class="loader loader-frames"><i></i><i></i><i></i><i></i></div>
+        </div>
+
+        <div class="header header-transparent">
+            <a href="javascript:void(0)" class="header-logo scale-hover"></a>
+        </div>
+
+        <div id="page-content" class="page-content">
+            <div id="page-content-scroll">
+
+                <div class="page-fullscreen bg-login">
+                    <div class="page-fullscreen-content">
+                        <div class="pageapp-login">
+                            <a href="#" class="pageapp-login-logo">
+                                <img src="images/logo.png">
+                            </a>
+                            <div class="pageapp-login-input">
+                                <i class="login-icon fa fa-user"></i>
+                                <input type="text" value="">
+                            </div>
+                            <div class="pageapp-login-input">
+                                <i class="login-icon fa fa-lock"></i>
+                                <input type="password" value="password" onfocus="if (this.value === 'password') this.value = ''" onblur="if (this.value ==='') this.value = 'password'">
+                            </div>
+                            <div class="pageapp-login-links">
+                                <a href="javascript:void(0)" class="page-login-forgot"><i class="fa fa-question-circle"></i><span></span></a>
+                                <a href="javascript:void(0)" class="page-login-create"><span></span><i class="fa fa-user"></i></a>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="js-login-language-selector">
+                                <a href="javascript:void(0)" class="page-login-forgot"><span data-lang="english"></span></a>
+                                <a href="javascript:void(0)" class="page-login-create"><span data-lang="french"></span></a>
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="notification-small bg-yellow-light tap-hide hide-notification">
+                                <strong class="bg-yellow-dark"><i class="fa fa-exclamation"></i></strong>
+                                <p>
+                                    Attention notification goes here!
+                                </p>
+                                <a href="#" class="hide-notification"><i class="fa fa-times"></i></a>
+                            </div>
+
+                            <a id="login" href="index.html" class="button button-blue button-icon button-full half-top full-bottom"><i class="fa fa-lock"></i><span></span>Login</a>
+                            <a id="fb-login" href="javascript:void(0)" class="button button-icon button-full facebook-bg"><i class="fa fa-facebook"></i><span></span>Login With Facebook</a>
+
+                            <div class="decoration"></div>
+                            <a id="create-account" href="register.html" class="button button-green button-icon button-full half-top half-bottom"><i class="fa fa-angle-right"></i><span>Create Account</span></a>
+                            <!--<div class="pageapp-login-social">
+                                <a href="#" class="button button-icon button-full facebook-bg"><i class="fa fa-facebook"></i>Login with Facebook</a>
+                                
+                            </div>-->
+                        </div>
+                    </div>
+                    <div class="overlay dark-overlay"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="sidebar-tap-close"></div>
+        <a href="#" class="back-to-top-badge"><i class="fa fa-caret-up"></i>Back to Top</a>
+
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/plugins.js"></script>
+    <script type="text/javascript" src="scripts/custom.js"></script>
+    <script type="text/javascript" src="scripts/login.js"></script>
+</body>
