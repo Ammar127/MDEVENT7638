@@ -1,0 +1,131 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><title>Chat</title><style>#loader{transition:all .3s ease-in-out;opacity:1;visibility:visible;position:fixed;height:100vh;width:100%;background:#fff;z-index:90000}#loader.fadeOut{opacity:0;visibility:hidden}.spinner{width:40px;height:40px;position:absolute;top:calc(50% - 20px);left:calc(50% - 20px);background-color:#333;border-radius:100%;-webkit-animation:sk-scaleout 1s infinite ease-in-out;animation:sk-scaleout 1s infinite ease-in-out}@-webkit-keyframes sk-scaleout{0%{-webkit-transform:scale(0)}100%{-webkit-transform:scale(1);opacity:0}}@keyframes sk-scaleout{0%{-webkit-transform:scale(0);transform:scale(0)}100%{-webkit-transform:scale(1);transform:scale(1);opacity:0}}</style><link href="styles/style.css" rel="stylesheet"></head><body class="app"><div id="loader"><div class="spinner"></div></div><script>window.addEventListener('load', () => {
+        const loader = document.getElementById('loader');
+        setTimeout(() => {
+          loader.classList.add('fadeOut');
+        }, 300);
+      });</script><div><div class="sidebar"><div class="sidebar-inner"><div class="sidebar-logo"><div class="peers ai-c fxw-nw"><div class="peer peer-greed"><a class="sidebar-link td-n" href="index.html"><div class="peers ai-c fxw-nw"><div class="peer"><div class="logo"><img src="assets/static/images/logo.png" alt=""></div></div><div class="peer peer-greed"><h5 class="lh-1 mB-0 logo-text">Adminator</h5></div></div></a></div><div class="peer"><div class="mobile-toggle sidebar-toggle"><a href="" class="td-n"><i class="ti-arrow-circle-left"></i></a></div></div></div></div><ul class="sidebar-menu scrollable pos-r"><li class="nav-item mT-30 active"><a class="sidebar-link" href="index.html"><span class="icon-holder"><i class="c-blue-500 ti-home"></i> </span><span class="title">Dashboard</span></a></li><li class="nav-item"><a class="sidebar-link" href="Event.html"><span class="icon-holder"><i class="c-brown-500 ti-calendar"></i> </span><span class="title">Events Management</span></a></li><li class="nav-item"><a class="sidebar-link" href="user.html"><span class="icon-holder"><i class="c-blue-500 ti-user"></i> </span><span class="title">User Management</span></a></li><li class="nav-item"><a class="sidebar-link" href="attendies.html"><span class="icon-holder"><i class="c-deep-orange-500 ti-user"></i> </span><span class="title">Attendies Management</span></a></li><li class="nav-item"><a class="sidebar-link" href="role.html"><span class="icon-holder"><i class="c-deep-purple-500 ti-user"></i> </span><span class="title">Role Management</span></a></li><li class="nav-item"><a class="sidebar-link" href="report.html"><span class="icon-holder"><i class="c-indigo-500 ti-bar-chart"></i> </span><span class="title">Reports</span></a></li></ul></div></div>    <main class="main-content bgc-grey-100">
+                <div id="mainContent">
+                    <div class="full-container">
+                        
+                      <div class="row" style="margin:5px;">
+                            <div class="col-md-12">
+                                <br><br>
+                                <div class="bgc-white bd bdrs-3 p-20 mB-20">
+                                    
+                                    <h4 class="c-grey-900 mB-20">Role Management</h4>
+                                    <div class="row">
+                                    <div style="margin-top:30px;" class="col-md-2">
+                                        <i class="fa fa-plus"> <a data-toggle="modal" data-target="#popup" href="" style="font-size:14px; font-weight:bolder; line-height:1.26">Add Role</a></i>
+                                        </div>
+                                        <div class="col-md-7"></div>
+                                       
+                                        <div class="col-md-3"><div class="form-group">
+    <label for="inputdefault">Search</label>
+    <input class="form-control" id="inputdefault" type="text">
+  </div></div>
+
+                                    </div>
+                                   
+                     <br><br>
+                                    
+                                    
+                                    
+                                    <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th><th scope="col">Name Of the Role</th>
+                                           
+                                           <th scope="col">Edit</th>
+                                             <th scope="col">Delete</th>
+                                        </tr>
+                                        </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Manager</td>
+                                           
+                                            <td><i class=" fa fa-pencil"></i></td>
+                                            <td><i class=" fa fa-trash"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Ticket Checker</td>
+                                         
+                                            <td><i class=" fa fa-pencil"></i></td>
+                                            <td><i class=" fa fa-trash"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Admin</td>
+
+                                            <td><i class=" fa fa-pencil"></i></td>
+                                            <td><i class=" fa fa-trash"></i></td>
+                                        </tr>
+                                         <tr>
+                                            <th scope="row">4</th>
+                                            <td>Speaker</td>
+                                          
+                                            <td><i class=" fa fa-pencil"></i></td>
+                                            <td><i class=" fa fa-trash"></i></td>
+                                        </tr>
+                                         <tr>
+                                            <th scope="row">5</th>
+                                            <td>Crew</td>
+                                           
+                                            <td><i class=" fa fa-pencil"></i></td>
+                                            <td><i class=" fa fa-trash"></i></td>
+                                        </tr>
+                                         <tr>
+                                            <th scope="row">6</th>
+                                            <td>Content Manager</td>
+                                           
+                                            <td><i class=" fa fa-pencil"></i></td>
+                                            <td><i class=" fa fa-trash"></i></td>
+                                        </tr>
+                                         <tr>
+                                            <th scope="row">7</th>
+                                            <td>Social Media Manager</td>
+                                            
+                                            <td><i class=" fa fa-pencil"></i></td>
+                                            <td><i class=" fa fa-trash"></i></td>
+                                        </tr>
+                                       
+                                        </tbody>
+                                    </table>
+                                  
+                                </div>
+                            </div>
+                  
+                        </div>      
+            
+                    </div>
+                </div>
+               
+            </main>
+            
+                                    <!--Modal-->
+<div class="modal fade" id="popup" role="dialog">
+<div class="modal-dialog">
+<div class="modal-content">
+
+    <div class=" modal-header">
+<h2 style="text-align:center;" class="modal-title"><strong>Add Role</strong></h2>
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+    
+</div>
+<div class="modal-body">
+<form action="/action_page.php">
+  <div class="form-group">
+    <label for="text">Role Name:</label>
+    <input type="text" class="form-control" id="email">
+  </div>
+  
+ <button type="submit" class="btn btn-default">Submit</button>
+    </form>   
+</div>
+<div class=" ftclr modal-footer">
+<button type="button" class="btn btnclr" data-dismiss="modal">Close</button>    
+</div>    
+</div>    
+</div>    
+</div><footer class="bdT ta-c p-30 lh-0 fsz-sm c-grey-600"><span>Copyright © 2017 Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a>. All rights reserved.</span></footer></div></div><script type="text/javascript" src="scripts/vendor.js"></script><script type="text/javascript" src="scripts/bundle.js"></script></body></html>
